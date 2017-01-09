@@ -1,1 +1,1 @@
-# getusermedia
+# navigator.mediaDevices.getUserMedia shim
