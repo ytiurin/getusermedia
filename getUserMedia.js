@@ -16,7 +16,7 @@ if ( !navigator.mediaDevices.getUserMedia ) {
         })
 
       else
-        getUserMedia( constraints, resolve, reject )
+        getUserMedia.call( navigator, constraints, resolve, reject )
     })
   }
 }
